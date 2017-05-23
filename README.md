@@ -11,8 +11,8 @@ For other bus transit operators and non-bus transit modes, an inferred dwell tim
 
 
 Model specification recommendations balance estimation robustness and reasonableness while retaining desired policy levers. 
-San Francisco’s suggested policy levers include standard versus articulated buses, low-floor vehicles, and all-door boarding policy.  
-In the Puget Sound, the recommended policy variables include off-board fare payment and vehicle type.
+* San Francisco’s suggested policy levers include standard versus articulated buses, low-floor vehicles, and all-door boarding policy.  
+* In the Puget Sound, the recommended policy variables include off-board fare payment and vehicle type.
 
 
 ## Input
