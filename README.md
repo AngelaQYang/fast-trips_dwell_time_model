@@ -25,6 +25,13 @@ This analysis uses data from both SF Muni and KC Metro to capture the impact of 
 ## Published Data 
 We publish data at box (https://app.box.com/files/0/f/11594143211/Dwell_Time_Model). More is coming, stay tuned. 
 
+## TCQSM
+Transit Capacity and Quality of Service Manual (TCQSM) (http://www.trb.org/Main/Blurbs/169437.aspx) provides guidance on transit capacity and quality of service issues and the factors influencing both. You could also find the original excel version of TCQSM in thie repository, by looking for the folder named: "\TCQSM_comp\build_TCQSM\tcqsm_demo_excel"
+
+The manual includes quantitative techniques for calculating the capacity and other operational characteristics of bus, rail, demand-responsive, and ferry transit services, as well as transit stops, stations, and terminals. Regarding dwell time, TCQSM presents three methods to estimate the dwell time: field measurement, default values, and calculation.
+
+In order to understand how factors such as vehicle type and fare policy influence passenger flow time, and to use the TCQSM model with our observed dataset, a ipython notebook (\TCQSM_comp\build_TCQSM\TCQSM_2.0.ipynb) was scripted to show the TCQSM calculation flow. You could play the model by changing different inputs within the codes. Hope this repository will help you get to know the model structure easier.
+
 ## References
 SFMTA (2012) All-Door Boarding Evaluation Final Report. https://www.sfmta.com/sites/default/files/agendaitems/2014/12-2-14%20Item%2014%20All%20Door%20Boarding%20Report.pdf 
  
