@@ -1,4 +1,4 @@
-# Fasttrips Dwell Time Model
+# Fast-Trips Dwell Time Model
 
 ## Content
 Dwell time model explores and suggests transit vehicle dwell time functions, for use in the Puget Sound and San Francisco Bay Area implementations of Fast-Trips (https://github.com/MetropolitanTransportationCommission/fast-trips). 
@@ -7,7 +7,7 @@ Dwell time model explores and suggests transit vehicle dwell time functions, for
 
 
 This repository suggests dwell time model specifications for bus systems in the Puget Sound Region (King County Metro) and the San Francisco Bay Area (Muni, operated by the San Francisco Municipal Transportation Agency, SFMTA). 
-For other bus transit operators and non-bus transit modes, an inferred dwell time specification is suggested based on the Transit Capacity and Quality of Service Manual (TCQSM)
+For other bus transit operators and non-bus transit modes, an inferred dwell time specification is suggested based on the Transit Capacity and Quality of Service Manual (TCQSM).
 
 
 Model specification recommendations balance estimation robustness and reasonableness while retaining desired policy levers. 
@@ -23,14 +23,15 @@ This analysis uses data from both SF Muni and KC Metro to capture the impact of 
 * San Francisco Muni Fall 2012 APC: one day, 94,460 records
 
 ## Published Data 
-We publish data at box (https://app.box.com/files/0/f/11594143211/Dwell_Time_Model). More is coming, stay tuned. 
+We have published the data on Box for internal use here: https://app.box.com/files/0/f/11594143211/Dwell_Time_Model. More is coming, stay tuned. 
 
 ## TCQSM
-Transit Capacity and Quality of Service Manual (TCQSM) (http://www.trb.org/Main/Blurbs/169437.aspx) provides guidance on transit capacity and quality of service issues and the factors influencing both. You could also find the original excel version of TCQSM in thie repository, by looking for the folder named: "\TCQSM_comp\build_TCQSM\tcqsm_demo_excel"
+The Transit Capacity and Quality of Service Manual (TCQSM) (http://www.trb.org/Main/Blurbs/169437.aspx) provides guidance on transit capacity and quality of service issues and the factors influencing both.  The manual includes quantitative techniques for calculating the capacity and other operational characteristics of bus, rail, demand-responsive, and ferry transit services, as well as transit stops, stations, and terminals. Regarding dwell time, TCQSM presents three methods to estimate the dwell time: field measurement, default values, and calculation.
 
-The manual includes quantitative techniques for calculating the capacity and other operational characteristics of bus, rail, demand-responsive, and ferry transit services, as well as transit stops, stations, and terminals. Regarding dwell time, TCQSM presents three methods to estimate the dwell time: field measurement, default values, and calculation.
+The TRB website above provides an Excel version of the TCQSM calculations which we have included in this repository in the folder: \TCQSM_comp\build_TCQSM\tcqsm_demo_excel.  In order to understand how factors such as vehicle type and fare policy influence passenger flow time, and to use the TCQSM model with our observed dataset, a IPython notebook (available here: \TCQSM_comp\build_TCQSM\TCQSM_2.0.ipynb) was scripted to show the TCQSM calculation flow. You can play with the model by changing different inputs within the code.  
 
-In order to understand how factors such as vehicle type and fare policy influence passenger flow time, and to use the TCQSM model with our observed dataset, a ipython notebook (\TCQSM_comp\build_TCQSM\TCQSM_2.0.ipynb) was scripted to show the TCQSM calculation flow. You could play the model by changing different inputs within the codes. Hope this repository will help you get to know the model structure easier.
+
+Hope this repository will help you get to know the dwell time model structure easier.
 
 ## References
 SFMTA (2012) All-Door Boarding Evaluation Final Report. https://www.sfmta.com/sites/default/files/agendaitems/2014/12-2-14%20Item%2014%20All%20Door%20Boarding%20Report.pdf 
