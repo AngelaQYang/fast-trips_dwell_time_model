@@ -3,7 +3,7 @@
 ## Content
 Dwell time model explores and suggests transit vehicle dwell time functions, for use in the Puget Sound and San Francisco Bay Area implementations of Fast-Trips (https://github.com/MetropolitanTransportationCommission/fast-trips). 
 * Project Website: http://fast-trips.mtc.ca.gov/
-* Full Technical Documentation (API): http://metropolitantransportationcommission.github.io/fast-trips/
+* Full Technical Documentation (API): https://mtcdrive.app.box.com/s/qz6f54yjw8etq69nzkni83d9e99fx5xa
 
 
 This repository suggests dwell time model specifications for bus systems in the Puget Sound Region (King County Metro) and the San Francisco Bay Area (Muni, operated by the San Francisco Municipal Transportation Agency, SFMTA). 
